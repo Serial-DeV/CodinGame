@@ -19,7 +19,7 @@ int main()
     // game loop
     while (1) {
         int v_max = -1;
-        int r_max = 0;
+        int r_max;
         for (int i = 0; i < 8; i++) {
             int mountain_h; // represents the height of one mountain.
             cin >> mountain_h; cin.ignore();
