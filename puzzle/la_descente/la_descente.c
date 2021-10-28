@@ -18,12 +18,12 @@ int main()
     while (1) {
 
         int v_max = -1;
-        int r_max = 0;
+        int r_max;
         for (int i = 0; i < 8; i++) {
             // represents the height of one mountain.
             int mountain_h;
             scanf("%d", &mountain_h);
-            if(v_max <= mountain_h)
+            if(mountain_h > v_max)
             {
                 v_max = mountain_h;
                 r_max = i;
