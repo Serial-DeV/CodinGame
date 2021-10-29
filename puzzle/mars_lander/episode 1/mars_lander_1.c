@@ -39,12 +39,12 @@ int main()
 
         // Write an action using printf(). DON'T FORGET THE TRAILING \n
         // To debug: fprintf(stderr, "Debug messages...\n");
-        if(v_speed < -40 && power < 4)
+        if(v_speed < -40 && power < 4 && Y < 2400)
         {
             power++;
         }
-
-        else if(v_speed > -20 && power > 0)
+        
+        else if(v_speed > -39 && power > 0)
         {
             power--;
         }
